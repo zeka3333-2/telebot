@@ -4,7 +4,7 @@ import traceback
 import telebot
 import time
 
-bot = telebot.TeleBot'(8221610205:AAFyE9l7MXBNQMZbAOe3tkrjIFfSSnbnll0')
+bot = telebot.TeleBot('8221610205:AAFyE9l7MXBNQMZbAOe3tkrjIFfSSnbnll0')
 ADMIN_ID = @CashFlow_Dnepr_bot
 def main():
     try:
