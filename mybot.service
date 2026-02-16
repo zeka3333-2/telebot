@@ -1,0 +1,14 @@
+[Unit]
+Description=MY BOT
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/userland/mybot
+ExecStart=/home/userland/mybot/main.py
+KillMode=process
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
